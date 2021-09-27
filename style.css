@@ -1,0 +1,177 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Times New Roman', Times, serif;
+}
+body{
+ background: #ccc;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+}
+.container{
+ position: relative;
+ width: 100%;
+ max-width: 1000px;
+ min-height: 1000px;
+ background: #11324D;
+ margin: 50px;
+ display: grid;
+ grid-template-columns: 2fr 1fr;
+ box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);;
+}
+.container:hover{
+ box-shadow: 0px 35px 45px rgba(0, 0, 0, 0.515);
+}
+
+.container .left_side{
+ position: relative;
+ background: #fff;
+ padding: 40px;
+}
+.d1{
+ font-size: 20px;
+ padding-bottom: 20px;
+ border-bottom: 1px solid rgba(0, 0, 0, 0.296);
+}
+.name{
+ font-size: 55px;
+ font-weight: bold;
+}
+.about{
+ position: relative;
+ margin-bottom: 50px;
+ margin-top: 20px;
+}
+.about:last-child{
+ margin-bottom: 0px;
+}
+.title1{
+ color: rgb(39, 118, 150);
+ letter-spacing: 1px;
+ margin-bottom: 10px;
+ font-size: 18px;
+ letter-spacing: 1px;
+}
+.about div{
+ font-size: 18px;
+}
+.edu_info{
+ font-size: 18px;
+ margin-bottom: 50px;
+}
+.edu_info ul{
+ list-style: none;
+}
+.edu_info ul li{
+ margin-bottom: 10px;
+}
+.edu_info ul li div{
+ margin-bottom: 5px;
+}
+.year{
+ color: #2b2e2e;
+ font-size: 18px;
+ letter-spacing: 1px;
+}
+
+.project{
+ font-size: 18px;
+}
+.project ul{
+ list-style: none;
+}
+.project div{
+ margin-bottom: 10px;
+ margin-top: 5px;
+ font-size: 18px;
+}
+.year1{
+ color: rgb(52, 151, 191);
+ font-size: 18px;
+}
+
+.container .right_side{
+ position: relative;
+ background: #11324D;
+ padding: 40px;
+}
+.info{
+ padding-top: 5px;
+ padding-bottom: 50px;
+ margin-top: 10px;
+ margin-bottom: 50px;
+ border-bottom: 1px solid rgba(204, 204, 204, 0.57);;
+}
+.title{
+ color: #fff;
+ font-weight: 600;
+ margin-bottom: 20px;
+ letter-spacing: 1px;
+}
+.info ul{
+ position: relative;
+}
+.info ul li{
+ position: relative;
+ list-style: none;
+ padding: 2px 2px;
+ margin: 10px 0;
+ cursor: pointer;
+ margin-bottom: 10px;
+ overflow: unset;
+}
+.info ul li .text:hover{
+ color: rgba(204, 204, 204, 0.7);
+}
+.info ul li .icon{
+ display: inline-block;
+ width: 30px;
+ font-size: 18px;
+ color: rgb(52, 151, 191);
+}
+.info ul li span{
+ color: rgba(255, 255, 255, 0.816);
+ font-size: 18px;
+}
+table {
+ font-family: arial, sans-serif;
+ border-collapse: collapse;
+ width: 100%;
+}
+
+td, th {
+ border: 2px solid rgb(52, 151, 191);
+ text-align: left;
+ padding: 8px;
+}
+th{
+ background-color: rgba(52, 152, 191, 0.611);
+}
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+ background-color: rgba(52, 152, 191, 0.611);
+}
+
+.button5 {
+	background-color: #555555;
+	margin: 10px;
+	font-size: 15px;
+	color: #fff;
+	padding: 10px;
+}
+
+@media(max-width: 1000px)
+{
+	.container
+	{
+		margin: 10px;
+		grid-template-columns: repeat(1,1fr);
+	}
+
+}
+
+		
